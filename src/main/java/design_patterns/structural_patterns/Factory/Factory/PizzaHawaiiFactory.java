@@ -1,4 +1,4 @@
-package design_patterns.structural_patterns.Pizza.Factory;
+package design_patterns.structural_patterns.Factory.Factory;
 
 
 public class PizzaHawaiiFactory implements PizzaFactory {

@@ -1,4 +1,4 @@
-package design_patterns.structural_patterns.Pizza.AbstractMethod;
+package design_patterns.structural_patterns.Factory.AbstractMethod;
 
 public class Main {
     public static void main(String[] args) {

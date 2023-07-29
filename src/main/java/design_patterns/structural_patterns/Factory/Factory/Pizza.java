@@ -1,4 +1,4 @@
-package design_patterns.structural_patterns.Pizza.AbstractMethod;
+package design_patterns.structural_patterns.Factory.Factory;
 
 import lombok.Data;
 
