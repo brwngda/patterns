@@ -7,6 +7,6 @@ public class Ingredient {
     private double price;
 
     public double getPrice() {
-        return price * InflationCalculator.INSTANCE.getInflationRate();
+        return price * InflationCalculatorEager.INSTANCE.getInflationRate();
     }
 }

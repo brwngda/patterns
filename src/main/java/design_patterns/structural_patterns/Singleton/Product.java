@@ -14,7 +14,7 @@ public class Product {
     }
 
     public double returnPrice() {
-        return ingredientList.stream().mapToDouble(value -> value.getPrice()).sum() + (profit * InflationCalculator.INSTANCE.getInflationRate());
+        return ingredientList.stream().mapToDouble(value -> value.getPrice()).sum() + (profit * InflationCalculatorEager.INSTANCE.getInflationRate());
     }
 
 }
