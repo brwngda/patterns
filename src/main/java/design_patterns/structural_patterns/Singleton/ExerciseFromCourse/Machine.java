@@ -1,4 +1,4 @@
-package design_patterns.structural_patterns.Singleton.Exercise;
+package design_patterns.structural_patterns.Singleton.ExerciseFromCourse;
 
 public class Machine {
 
