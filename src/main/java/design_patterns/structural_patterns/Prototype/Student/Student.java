@@ -1,4 +1,4 @@
-package design_patterns.structural_patterns.Prototype;
+package design_patterns.structural_patterns.Prototype.Student;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
