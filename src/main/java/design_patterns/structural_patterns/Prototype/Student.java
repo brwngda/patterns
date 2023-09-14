@@ -16,13 +16,18 @@ public class Student implements Cloneable {
     private String name;
     private String lastName;
     private int age;
+    private Course course;
 
 
     public static void main(String[] args) {
-        Student student = new Student("Kazik", "Kazimierczak", 30);
+        Student student = new Student("Kazik", "Kazimierczak", 30, new Course("Biology"));
         try {
             Student studentClone = (Student) student.clone();
+            System.out.println("Student: " + student);
+            System.out.println("Student clone: " + studentClone);
             studentClone.name = "Stasiek";
+            studentClone.course.setSubject("History");
+            System.out.println("############## after change");
             System.out.println("Student: " + student);
             System.out.println("Student clone: " + studentClone);
         } catch (CloneNotSupportedException e) {
