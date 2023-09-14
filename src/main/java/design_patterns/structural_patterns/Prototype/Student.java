@@ -18,6 +18,12 @@ public class Student implements Cloneable {
     private int age;
     private Course course;
 
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        Student studentClone = (Student) super.clone();
+        studentClone.course = (Course) course.clone();
+        return studentClone;
+    }
 
     public static void main(String[] args) {
         Student student = new Student("Kazik", "Kazimierczak", 30, new Course("Biology"));
