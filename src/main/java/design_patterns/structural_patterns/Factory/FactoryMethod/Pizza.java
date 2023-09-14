@@ -17,7 +17,7 @@ public class Pizza {
         this.ingredients = ingredients;
     }
 
-}
+
 
     public static Pizza createPizzaSalami() {
         return new Pizza(50, "thin", Arrays.asList("salami", "cheese", "mushrooms"));
